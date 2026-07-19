@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./test.css">
+    <script src="https://kit.fontawesome.com/d289613cad.js" crossorigin="anonymous"></script>
+    <title>cadenzaFinal</title>
+    <style>
+        @font-face {
+            font-family: 'byekan';
+            src: url(./web-font/BYekan+.ttf);
+            src: url(./web-font/BYekan+\ Bold.ttf);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section class="header-top">
+            <div class="logo-top-header"><img src="./images/main-logo.png" alt=""></div>
+                <div class="header-top-wrapper">
+                <div class="header-top-right">
+                    <div class="hamburger">
+                        <div class="hamburgrer-icon"><img src="./images/menu-mob.png" alt=""></div>
+                        <div class="hamburger-menu">
+                            <ul class="hamburger-items">
+                            <li class="hamburger-item">
+                                <div class="hamburger-button">
+                                    <button>ورود</button>
+                                    <button>ثبت نام</button>
+                                </div>
+                            </li>
+                            <li class="hamburger-item">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">خانه</span>
+                                </a>
+                            </li>
+                            <li class="hamburger-item has-sub">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">کیف</span>
+                                    <span class="icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-23.1 -23.1 376.20 376.20" xml:space="preserve" stroke="#000000" stroke-width="33"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="9.9"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg>
+                                    </span>
+                                    <ul class="hambergur-submenu">
+                                        <li><a href="">بزرگ</a></li>
+                                        <li><a href="">کوچک</a></li>
+                                        <li><a href="">کیف پول</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="hamburger-item has-sub">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">کفش</span>
+                                    <span class="icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-23.1 -23.1 376.20 376.20" xml:space="preserve" stroke="#000000" stroke-width="33"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="9.9"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg>
+                                    </span>
+                                    <ul class="hambergur-submenu">
+                                        <li><a href="">بزرگ</a></li>
+                                        <li><a href="">کوچک</a></li>
+                                        <li><a href="">کیف پول</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="hamburger-item has-sub">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">صندل</span>
+                                    <span class="icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-23.1 -23.1 376.20 376.20" xml:space="preserve" stroke="#000000" stroke-width="33"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="9.9"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg>
+                                    </span>
+                                    <ul class="hambergur-submenu">
+                                        <li><a href="">بزرگ</a></li>
+                                        <li><a href="">کوچک</a></li>
+                                        <li><a href="">کیف پول</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="hamburger-item has-sub">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">اکسسوری</span>
+                                    <span class="icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-23.1 -23.1 376.20 376.20" xml:space="preserve" stroke="#000000" stroke-width="33"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="9.9"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg>
+                                    </span>
+                                    <ul class="hambergur-submenu">
+                                        <li><a href="">بزرگ</a></li>
+                                        <li><a href="">کوچک</a></li>
+                                        <li><a href="">کیف پول</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="hamburger-item">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">محصولات ست</span>
+                                </a>
+                            </li>
+                            <li class="hamburger-item">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">جدیدترین</span>
+                                </a>
+                            </li>
+                            <li class="hamburger-item">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">پرفروش ترین</span>
+                                </a>
+                            </li>
+                            <li class="hamburger-item">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text highlight">تخفیف کادنزا</span>
+                                </a>
+                            </li>
+                            <li class="hamburger-item">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">بلاگ</span>
+                                </a>
+                            </li>
+                            <li class="hamburger-item">
+                                <a href="#" class="hamburger-link">
+                                    <span class="text">تماس با ما</span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="hamburger-menu-logo"><img src="./images/logo-mob.png" alt=""></div>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="hamburger-back"></div>
+                    </div>
+                    <div class="header-logo"><img src="./images/logo-mob.png" alt=""></div>
+                </div>
+                <div class="header-top-left">
+                    <div class="header-form">
+                        <form action="">
+                            <div class="search-box">
+                                <input type="text" class="search-input" placeholder="جستجو...">
+                            <button type="button" class="search-clear" aria-label="پاک کردن">✕</button>    
+                            <button type="submit" disabled class="header-form-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 24 24">
+                                    <path d="M22 20L20 22 14 16 14 14 16 14z"></path><path d="M9,16c-3.9,0-7-3.1-7-7c0-3.9,3.1-7,7-7c3.9,0,7,3.1,7,7C16,12.9,12.9,16,9,16z M9,4C6.2,4,4,6.2,4,9c0,2.8,2.2,5,5,5 c2.8,0,5-2.2,5-5C14,6.2,11.8,4,9,4z"></path><path d="M13.7 12.5H14.7V16H13.7z" transform="rotate(-44.992 14.25 14.25)"></path>
+                                </svg>
+                            </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="header-menu">
+                        <ul>
+                            <div class="sub">
+                                <li>
+                                <a href="#">
+                                    <span class="text ">کیف</span>
+                                    <span class="icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-23.1 -23.1 376.20 376.20" xml:space="preserve"  stroke-width="33"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="9.9"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">
+                                            <span class="text">بزرگ</span>
+                                        </a> 
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="text">کوچک</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="text">کیف پول</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="text">کوله پشتی</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            </div>
+                            <div class="sub">
+                                <li>
+                                <a href="#">
+                                    <span class="text">کفش</span>
+                                    <span class="icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-23.1 -23.1 376.20 376.20" xml:space="preserve"  stroke-width="33"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="9.9"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#"><span class="text">مجلسی</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="text">اسپرت</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="text">کالج</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="text">تابستانی</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="text">بوت</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            </div>
+                            <div class="sub">
+                                <li>
+                                <a href="#">
+                                    <span class="text">صندل</span>
+                                    <span class="icon">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-23.1 -23.1 376.20 376.20" xml:space="preserve"  stroke-width="33"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="9.9"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg>
+                                    </span>
+                                </a>
+                               <ul class="sub-menu">
+                                    <li>
+                                        <a href="#"><span class="text">لژ / پاشنه</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="text">طبی</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="text">تخت</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            </div>
+                            <li>
+                                <a href="#">
+                                    <span class="text">اکسسوری</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">محصولات ست</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text highlight">تخفیف کادنزا</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">درباره ما</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">ارتباط با ما</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">بلاگ</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user">
+                        <div class="si-lo-wrapper">
+                            <div class="signin-login" style="display: none;">
+                            <div class="login"><a href="#">ورود</a></div>
+                            <div class="divider signin-login"></div>
+                            <div class="signin"><a href="#">عضویت</a></div>
+                        </div>
+                        </div>
+                        <!-- <i class="fa fa-moon-o" style="color: #006058; font-size: 22px;"></i>
+                        <i class="fa fa-sun-o" style="color: #006058; font-size:22px; display: none;"></i> -->
+                        <div class="divider user" style="visibility: hidden;"></div>
+                        <div class="user-img"><img src="./images/user.png" alt=""></div>
+                        <div class="divider user"></div>
+                        <div class="basket-img"><img src="./images/basket.png" alt=""></div>
+                        <div class="divider user"></div>
+                        <div class="favorite-menu">
+                            <button class="favorite-list-btn">
+                            <img src="./images/favorite_21dp_FFF_FILL0_wght400_GRAD0_opsz20.png" alt="">
+                            <span class="favorite-count">0</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="header-bottom">
+            <div class="header-bottom-wrapper">
+                <div class="header-bottom-menu">
+                    <ul class="menu">
+                        <li class="menu-item">
+                        <a href="#" class="menu-item-img">
+                            <div class="item-img"><img src="./images/ee60fd35-18fb-43c8-8b89-a39175f0aab5.png" alt=""></div>
+                            <span class="title">بوت</span>
+                        </a>
+                        <div class="divider"></div>
+                        </li>
+                        <li class="menu-item">
+                        <a href="#" class="menu-item-img">
+                            <div class="item-img"><img src="./images/a4586c4a-8d64-4024-8ebb-b4b474ef955d.png" alt=""></div>
+                            <span class="title">اسپرت</span>
+                        </a>
+                        <div class="divider"></div>
+                        </li>
+                        <li class="menu-item">
+                        <a href="#" class="menu-item-img">
+                            <div class="item-img"><img src="./images/9405a219-0fbb-4dae-a8d6-0786b31b0f82.png" alt=""></div>
+                            <span class="title">اسلیپر</span>
+                        </a>
+                        <div class="divider"></div>
+                        </li>
+                        <li class="menu-item">
+                        <a href="#" class="menu-item-img">
+                            <div class="item-img"><img src="./images/9d83ec3c-ab5c-42d4-afec-ea964a36df1f.png" alt=""></div>
+                            <span class="title">کالج</span>
+                        </a>
+                        <div class="divider"></div>
+                        </li>
+                        <li class="menu-item">
+                        <a href="#" class="menu-item-img">
+                            <div class="item-img"><img src="./images/279e6dc6-9f5b-4d93-bc09-e40251e702bb.png" alt=""></div>
+                            <span class="title">مجلسی</span>
+                        </a>
+                        <div class="divider"></div>
+                        </li>
+                        <li class="menu-item">
+                        <a href="#" class="menu-item-img">
+                            <div class="item-img"><img src="./images/3aa51727-b280-4988-ac01-d1265b866e34.png" alt=""></div>
+                            <span class="title">کیف</span>
+                        </a>
+                        <div class="divider"></div>
+                        </li>
+                        <li class="menu-item last-clild">
+                        <a href="#" class="menu-item-img">
+                            <div class="item-img"><img src="./images/75a2cd5c-3c20-4f71-9ac9-59c8e239195a.png" alt=""></div>
+                            <span class="title">اکسسوری</span>
+                        </a>
+                        <div class="divider"></div>
+                        </li>
+                </ul>
+                </div>
+            </div>
+        </section>
+        <section class="login-signin-form hidden">
+            <div class="form-back"></div>
+            <div class="my-form">
+                <div class="header-logo"><img src="./images/main-logo.png" alt=""></div>
+                <h3>ورود / ثبت نام</h3>
+                <form action="" id="myForm1" class="" name="" value="">
+                     <p class="enter-phone">شماره مبایل یا پست الکترونیکی خود را وارد کنید.</p>
+                    <input type="text" placeholder="شماره تماس یا ایمیل" name="" value="">
+                    <input type="password" placeholder="رمز عبور"name="" value="">
+                    <div class="rememberMe">
+                        <input type="checkbox" id="remember" name="" value="">
+                        <label for="remember">مرا به خاطر بسپار</label>
+                    </div>
+                    <button type="button" id="loginBtn">ورود به کادنزا</button>
+                    <button type="button" id="signinBtn">ثبت نام در کادنزا</button>
+                    <p class="form-text">با ورود و یا ثبت نام در کادنزا شما شرایط و قوانین استفاده از سرویس های سایت کادنزا و قوانین حریم خصوصی آن را می پذیرم</p>
+                    <a href="">رمز عبور را فراموش کرده ام</a>
+                 </form>
+                 <form action="" id="myForm2" class="hidden" name="" value="">
+                    <p>با ثبت نام در کادنزا فرآیند خرید را سریعتر انجام دهید</ح>
+                    <input type="text" placeholder="نام و نام خانوادگی" name="" value="">
+                    <input type="text" placeholder="شماره همراه" name="" value="">
+                    <input type="password" placeholder="رمز عبور" name="" value="">
+                    <input type="password" placeholder="تکرار رمز عبور" name="" value="">
+                    <button type="button">ثبت نام در کادنزا</button>
+                    <a href="">بازگشت به فرم ورود</a>
+                 </form>
+                 <form action="" id="myForm3" class="hidden" name="" value="">
+                    <p>برای بازیابی رمز عبور، شماره موبایل خود را وارد کنید</p>
+                    <input type="text" name="" id="" placeholder="شماره همراه">
+                    <button type="button">ارسال کد بازیابی</button>
+                    <a href="">بازگشت به فرم ورود</a>
+                 </form>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="banner-slider">
+            <div class="container">
+                <div class="banner-slider-img">
+                    <img id="home-banner" src="./images/eb341aa3-e8ff-4c53-8031-f7ffebe50b40.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="img-gallery">
+            <div class="container">
+                <div class="gallery-wrapper">
+                    <div class="row-one">
+                        <div class="loafer"><img src="./images/6bb585f3-da94-442f-9044-f8e90c8da615.webp" alt=""></div>
+                        <div class="sport"><img src="./images/e6ca70b2-1996-4dbf-8622-5bf3d9da30c0.webp" alt=""></div>
+                    </div>
+                    <div class="row-two">
+                        <div class="bag"><img src="./images/2cb9ac73-dcce-4fc4-8f61-c9178d00b954.webp" alt=""></div>
+                        <div class="slippers"><img src="./images/e241bec4-e77e-464d-a353-9498795b8e1f.webp" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="New-collection">
+            <div class="container">
+                <div class="collection-wrapper">
+                    <div class="title">
+                        <a class="common-title-link" href="#">
+                            <h1 class="common-title">جدیدترین محصولات</h1>
+                        </a>
+                    </div>
+                    <div class="collection-slider">
+                        <div class="collection-slider-wrapper">
+                            <div class="navigation-icon-right"><a href=""><img src="./images/navigation-right.png" alt=""></a></div>
+                            <div class="product">
+                                <div class="product-wrapper">
+                                        <div class="product-img-info smaller">
+                                            <a href="">
+                                                <div class="product-pic">
+                                                    <img src="./images/8d040931-6f24-41ea-b861-2c94d6643156.webp" alt="">
+                                                </div>
+                                            </a>
+                                            <div class="product-info">
+                                                <span class="pro-name">کیف شیوا</span>
+                                                <span class="price">899,000تومان</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-img-info bigger">
+                                            <a href="">
+                                                <div class="product-pic">
+                                                    <img src="./images/87d23803-d821-4ed3-bf7b-5ac944e6e713.webp" alt="">
+                                                </div>
+                                            </a>
+                                            <div class="product-info">
+                                                <span class="pro-name">کیف آرامیس</span>
+                                                <span class="price">760,000تومان</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-img-info smaller">
+                                            <a href="">
+                                                <div class="product-pic">
+                                                   <img src="./images/eca5339c-633b-43d8-9c9c-18e911880058.webp" alt="">
+                                                </div>
+                                            </a>
+                                            <div class="product-info">
+                                                <span class="pro-name">کیف آرسس</span>
+                                                <span class="price">999,000تومان</span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="navigation-icon-left"><a href=""><img src="./images/navigation-left.png" alt=""></a></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cadenza-discount">
+            <div class="cadenza-discount-backgrnd">
+                <div class="container">
+                    <div class="cadenza-discount-wrapper">
+                        <div class="title">
+                            <a class="common-title-link" href="#">
+                                <h1 class="common-title">تخفیف کادنزا</h1>
+                            </a>
+                        </div>
+                        <div class="discount-products">
+                              <!-- <div class="discount-pro-wrapper">
+                                <div class="discount-pro-pic">
+                                    <a href=""><img src="./images/ea14009e-34ec-4bbf-8610-9fcf25194924.webp" alt=""></a>
+                                </div>
+                                <div class="discount-pro-info">
+                                    <span class="before"><del>1,190,000</del></span>
+                                    <span class="after">1,000,000 تومان</span>
+                                </div>
+                                <div class="discount">40%</div>
+                                <div class="favorite"><img src="./images/favorite_21dp_FFF_FILL0_wght400_GRAD0_opsz20.png" style="width: 20px; height: 20px;"></div>
+                              </div>
+                              <div class="discount-pro-wrapper">
+                                <div class="discount-pro-pic">
+                                    <a href=""><img src="./images/7070df61-3d78-451c-9ab5-769b9cc3bcf0.webp" alt=""></a>
+                                </div>
+                                <div class="discount-pro-info">
+                                    <span class="before"><del>1,200,000</del></span>
+                                    <span class="after">1,100,000 تومان</span>
+                                </div>
+                                <div class="discount">40%</div>
+                                <div class="favorite"><img src="./images/favorite_21dp_FFF_FILL0_wght400_GRAD0_opsz20.png" style="width: 20px; height: 20px;"></div>
+                              </div>
+                              <div class="discount-pro-wrapper">
+                                <div class="discount-pro-pic">
+                                    <a href=""><img src="./images/497129f0-e8d3-4a47-8595-d4ea597f7e47.webp" alt=""></a>
+                                </div>
+                                <div class="discount-pro-info">
+                                    <span class="before"><del>900,000</del></span>
+                                    <span class="after">820,000 تومان</span>
+                                </div>
+                                <div class="discount">40%</div>
+                                <div class="favorite"><img src="./images/favorite_21dp_FFF_FILL0_wght400_GRAD0_opsz20.png" style="width: 20px; height: 20px;"></div>
+                              </div>
+                              <div class="discount-pro-wrapper">
+                                <div class="discount-pro-pic">
+                                    <a href=""><img src="./images/455fb808-a00b-4eb9-b12a-7301da0d97a0.webp" alt=""></a>
+                                </div>
+                                <div class="discount-pro-info">
+                                    <span class="before"><del>1,800,000</del></span>
+                                    <span class="after">1,500,000 تومان</span>
+                                </div>
+                                <div class="discount">40%</div>
+                                <div class="favorite"><img src="./images/favorite_21dp_FFF_FILL0_wght400_GRAD0_opsz20.png" style="width: 20px; height: 20px;"></div>
+                              </div>
+                              <div class="discount-pro-wrapper">
+                                <div class="discount-pro-pic">
+                                    <a href=""><img src="./images/26a386f2-47e2-43dc-9763-9bd8803ef2d9.webp" alt=""></a>
+                                </div>
+                                <div class="discount-pro-info">
+                                    <span class="before"><del>1,190,000</del></span>
+                                    <span class="after">1,000,000 تومان</span>
+                                </div>
+                                <div class="discount">40%</div>
+                                <div class="favorite"><img src="./images/favorite_21dp_FFF_FILL0_wght400_GRAD0_opsz20.png" style="width: 20px; height: 20px;"></div>
+                              </div>
+                              <div class="discount-pro-wrapper">
+                                <div class="discount-pro-pic">
+                                    <a href=""><img src="./images/3d8a6d7a-6a3b-4c6a-a6a4-b6610fdd75d3.webp" alt=""></a>
+                                </div>
+                                <div class="discount-pro-info">
+                                    <span class="before"><del>1,750,000</del></span>
+                                    <span class="after">1,500,000 تومان</span>
+                                </div>
+                                <div class="discount">40%</div>
+                                <div class="favorite"><img src="./images/favorite_21dp_FFF_FILL0_wght400_GRAD0_opsz20.png" style="width: 20px; height: 20px;"></div>
+                              </div>
+                              <div class="discount-pro-wrapper">
+                                <div class="discount-pro-pic">
+                                    <a href=""><img src="./images/cfe83279-750a-426a-8519-69583ec2e9de.webp" alt=""></a>
+                                </div>
+                                <div class="discount-pro-info">
+                                    <span class="before"><del>1,990,000</del></span>
+                                    <span class="after">1,800,000 تومان</span>
+                                </div>
+                                <div class="discount">40%</div>
+                                <div class="favorite"><img src="./images/favorite_21dp_FFF_FILL0_wght400_GRAD0_opsz20.png" style="width: 20px; height: 20px;"></div>
+                              </div>
+                              <div class="discount-pro-wrapper">
+                                <div class="discount-pro-pic">
+                                    <a href=""><img src="./images/77eb4407-8918-4b46-abb8-098ec1bcbff4.webp" alt=""></a>
+                                </div>
+                                <div class="discount-pro-info">
+                                    <span class="before"><del>1,990,000</del></span>
+                                    <span class="after">1,800,000 تومان</span>
+                                </div>
+                                <div class="discount">40%</div>
+                                <div class="favorite"><img src="./images/favorite_21dp_FFF_FILL0_wght400_GRAD0_opsz20.png" style="width: 20px; height: 20px;"></div>
+                              </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="New-collection">
+            <div class="container">
+                <div class="collection-wrapper">
+                    <div class="title">
+                        <a class="common-title-link" href="#">
+                            <h1 class="common-title">پرفروش ترین محصولات</h1>
+                        </a>
+                    </div>
+                    <div class="collection-slider">
+                        <div class="collection-slider-wrapper">
+                            <div class="navigation-icon-right"><a href=""><img src="./images/navigation-right.png" alt=""></a></div>
+                            <div class="product">
+                                <div class="product-wrapper">
+                                        <div class="product-img-info smaller">
+                                            <a href="">
+                                                <div class="product-pic">
+                                                    <img src="./images/73abd9b7-51bf-4928-93f1-75f91d8abf7b.webp" alt="">
+                                                </div>
+                                            </a>
+                                            <div class="product-info">
+                                                <span class="pro-name">کالج آذین</span>
+                                                <span class="price">999,000تومان</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-img-info bigger">
+                                            <a href="">
+                                                <div class="product-pic">
+                                                    <img src="./images/66667b2f-fd47-4db8-8287-a8a4fbe4154a.webp" alt="">
+                                                </div>
+                                            </a>
+                                            <div class="product-info">
+                                                <span class="pro-name">کالج پانیذ</span>
+                                                <span class="price">999,000تومان</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-img-info smaller">
+                                            <a href="">
+                                                <div class="product-pic">
+                                                   <img src="./images/dd11dd3f-dacc-485c-b2e6-d60e9de11360.webp" alt="">
+                                                </div>
+                                            </a>
+                                            <div class="product-info">
+                                                <span class="pro-name">کفش تابان</span>
+                                                <span class="price">1,199,000تومان</span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="navigation-icon-left"><a href=""><img src="./images/navigation-left.png" alt=""></a></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="services-wrapper">
+                    <div class="back-to-top">
+                        <a href="">
+                            <div class="back-to-top-pic"><img src="./images/navigation-topt (1).png" alt=""></div>
+                            <span>بازگشت به بالا</span>
+                        </a>
+                    </div>
+                    <div class="services-items">
+                        <div class="services-item">
+                            <a>
+                                <div class="services-item-pic"><img src="./images/98eb9d9f-a518-47c2-950c-c72a2eb51b74.png" alt=""></div>
+                                <span>فروشگاه ها</span>
+                            </a>
+                        </div>
+                        <div class="services-divider"></div>
+                        <div class="services-item">
+                            <a>
+                                <div class="services-item-pic"><img src="./images/31f0514f-0690-45e0-adf0-53d4500be5a5.png" alt=""></div>
+                                <span>خدمات مشتریان</span>
+                            </a>
+                        </div>
+                        <div class="services-divider"></div>
+                        <div class="services-item">
+                            <a>
+                                <div class="services-item-pic"><img src="./images/10a009ca-af19-4c10-94f3-aae498c3a2df.png" alt=""></div>
+                                <span>تعویض کالا</span>
+                            </a>
+                        </div>
+                        <div class="services-divider"></div>
+                        <div class="services-item">
+                            <a>
+                                <div class="services-item-pic"><img src="./images/917d815c-26e5-4353-a1a5-bfa3d420c71b.png" alt=""></div>
+                                <span>ارسال به سراسر کشور</span>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href=""><img src="./images/twitter.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/whatsapp.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/linkedin (1).png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/instagram-icon.png" alt=""></a>
+                        </li>
+                    </ul>
+                    <p class="social-text">ما را در شبکه های اجتماعی دنبال کنید</p>
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-logo">
+                    <div class="logo-pic">
+                        <a href="">
+                            <img src="./images/logo-footer (1).png" alt="">
+                        </a>
+                    </div>
+                    <p class="about-cadenza">برند کادنزا یکی از پیشگامان و فعالان حوزه فروش اینترنتی کیف و کفش در ایران می باشد و همواره در رسیدن به جایگاه نخست برند ملی و صادرات محصولات با کیفیت پیشرو بوده است. ما در کادنزا هر روز در تلاشیم که امکانات و خدمات خود را افزایش داده و بهترین تجربه را برای مشتریان رقم بزنیم.</p>
+                </div>
+                <div class="footer-menu">
+                    <h3>دسترسی سریع</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item">
+                            <a href="">
+                                <span>خرید کیف زنانه</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">
+                                <span>خرید کفش زنانه</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">
+                                <span>خرید صندل زنانه</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">
+                                <span>خرید کفش اسپرت دخترانه</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">
+                                <span>خرید بوت زنانه</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">
+                                <span>خرید کوله پشتی دخترانه</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cadenza-address">
+                    <h3>فروشگاه های ما</h3>
+                    <ul class="cadenza-address-menu">
+                        <li>
+                            <h4>شعبه پردیس زندگی:</h4>
+                        </li>
+                        <li>
+                            <span>تهران، آیت‌اله کاشانی، بلوار اباذر، مجتمع تجاری پردیس زندگی، طبقه همکف واحد180</span>
+                        </li>
+                        <li>
+                            <span>شماره تماس: 44040884-021</span>
+                        </li>
+                        <li>
+                            <h4>شعبه اطلس مال:</h4>
+                        </li>
+                        <li>
+                            <span>تهران، خیابان نیاوران، مجتمع اطلس مال، طبقه همکف(G3)- واحد 3024</span>
+                        </li>
+                        <li>
+                            <span>شماره تماس: ۲۶۳۷۹۳۶۲-۰۲۱</span>
+                        </li>
+                        <li>
+                            <h4>شعبه تیراژه2:</h4>
+                        </li>
+                        <li>
+                            <span>تهران، خیابان مدنی، جنب مترو مدنی، مجتمع تیراژه2، طبقه همکف، واحد G44</span>
+                        </li>
+                        <li>
+                            <span>شماره تماس: ۷۷۱۵۹۹۸۰-۰۲۱</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cadenza-question-box">
+                    <h3><a href="">سوالات متداول</a></h3>
+                    <a href="">درخواست خرید عمده</a>
+                    <a href="">مجله کادنزا</a>
+                    <div class="enamad-logo">
+                        <a href=""><img src="./images/83.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <ul class="social">
+                <li>
+                    <a href=""><span><img src="./images/twitter.png" alt=""></span></a>
+                </li>
+                <li>
+                    <a href=""><span><img src="./images/whatsapp.png" alt=""></span></a>
+                </li>
+                <li>
+                    <a href=""><span><img src="./images/linkedin (1).png" alt=""></span></a>
+                </li>
+                <li>
+                    <a href=""><span><img src="./images/instagram-icon.png" alt=""></span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-wrapper">
+                <a href="">
+                    <p>طراحی و توسعه توسط گیو</p>
+                <img src="./images/giv.png" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>

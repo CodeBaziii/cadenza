@@ -1,0 +1,164 @@
+[
+  {
+    "id" : 1 ,
+    "name" : "" ,
+    "imageSrc" : "./images/3d8a6d7a-6a3b-4c6a-a6a4-b6610fdd75d3.webp" ,
+    "price" : 155000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 2 ,
+    "name" : "" ,
+    "imageSrc" : "./images/8ae8b458-b61c-4849-8df6-f16b9fb02e50.webp" ,
+    "price" : 1124000 ,
+    "categories" : "bag",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 3 ,
+    "name" : "" ,
+    "imageSrc" : "./images/8c3e7ed6-827b-4169-9312-cca7051c2e01.webp" ,
+    "price" : 123000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 4 ,
+    "name" : "" ,
+    "imageSrc" : "./images/8d040931-6f24-41ea-b861-2c94d6643156.webp" ,
+    "price" : 157000 ,
+    "categories" : "bag",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 5 ,
+    "name" : "" ,
+    "imageSrc" : "./images/26a386f2-47e2-43dc-9763-9bd8803ef2d9.webp" ,
+    "price" : 756000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 6 ,
+    "name" : "" ,
+    "imageSrc" : "./images/73abd9b7-51bf-4928-93f1-75f91d8abf7b.webp" ,
+    "price" : 3456000 ,
+    "categories" : "college",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 7 ,
+    "name" : "" ,
+    "imageSrc" : "./images/77eb4407-8918-4b46-abb8-098ec1bcbff4.webp" ,
+    "price" : 1565000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 8 ,
+    "name" : "" ,
+    "imageSrc" : "./images/87d23803-d821-4ed3-bf7b-5ac944e6e713.webp" ,
+    "price" : 2254000 ,
+    "categories" : "bag",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 9 ,
+    "name" : "" ,
+    "imageSrc" : "./images/455fb808-a00b-4eb9-b12a-7301da0d97a0.webp" ,
+    "price" : 2562000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 10 ,
+    "name" : "" ,
+    "imageSrc" : "./images/7070df61-3d78-451c-9ab5-769b9cc3bcf0.webp" ,
+    "price" : 222000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 11 ,
+    "name" : "" ,
+    "imageSrc" : "./images/66667b2f-fd47-4db8-8287-a8a4fbe4154a.webp" ,
+    "price" : 199000 ,
+    "categories" : "college",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 12 ,
+    "name" : "" ,
+    "imageSrc" : "./images/497129f0-e8d3-4a47-8595-d4ea597f7e47.webp" ,
+    "price" : 175000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 13 ,
+    "name" : "" ,
+    "imageSrc" : "./images/cfe83279-750a-426a-8519-69583ec2e9de.webp" ,
+    "price" : 230000 ,
+    "categories" : "college",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 14 ,
+    "name" : "" ,
+    "imageSrc" : "./images/d8986c58-9204-400e-bcc5-d79da21bbfdc.webp" ,
+    "price" : 450000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 15 ,
+    "name" : "" ,
+    "imageSrc" : "./images/dd11dd3f-dacc-485c-b2e6-d60e9de11360.webp" ,
+    "price" : 350000 ,
+    "categories" : "dressShoes",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 16 ,
+    "name" : "" ,
+    "imageSrc" : "./images/ea14009e-34ec-4bbf-8610-9fcf25194924.webp" ,
+    "price" : 250000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 17 ,
+    "name" : "" ,
+    "imageSrc" : "./images/eca5339c-633b-43d8-9c9c-18e911880058.webp" ,
+    "price" : 195000 ,
+    "categories" : "bag",
+    "oldPrice": 900000,
+    "isFavorite": false
+  },
+  {
+    "id" : 18 ,
+    "name" : "" ,
+    "imageSrc" : "./images/ed2e3f50-7672-4aa2-a4da-6b846892469c.webp" ,
+    "price" : 280000 ,
+    "categories" : "boot",
+    "oldPrice": 900000,
+    "isFavorite": false
+  }
+]
