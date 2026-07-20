@@ -373,7 +373,7 @@
   .container{
     max-width: 100%;
     margin:0 17px;
-    min-width: 450px;
+    min-width: 350px;
   }
 
 
@@ -386,11 +386,10 @@
 
   /**************************************************************** header *****************************************************************/
 
-/* header{
-  min-width: 300px;
-      max-width: 1500px;
-      background-color: #7b7575;
-} */
+header{
+  width: 100%;
+  max-width: 100%;
+}
 
   /* .header-top */
   .logo-top-header{
@@ -887,7 +886,6 @@
       width: 100%;
       border-top: 1px solid #c5c5c5;
       border-bottom: 1px solid #c5c5c5;
-      min-width: 479px;
     }
     .header-bottom-menu{
       width: 100%;
@@ -1535,17 +1533,17 @@ pointer-events: auto;
 }
   /************************************ responsive ******************************************/
   @media screen and (min-width:300px){
-    header{
-      max-width: 576px;
-      min-width: 493px;
-      background-color: pink;
+    .header-logo{
+      display: none;
+    }
+    .logo-top-header{
+      display: block;
+      width: 74px;
+      margin: 5px auto 5px;
     }
   }
+
   @media screen and (min-width:576px){
-    header{
-      min-width: 576px;
-      max-width: 1500px;
-    }
     .common-title{
       font-size: 25px;
     }
@@ -1584,6 +1582,8 @@ pointer-events: auto;
   @media screen and (min-width:768px){
     .logo-top-header{
       display: block;
+      width: 108px;
+      margin: 25px auto 25px;
     }
     .header-top-right{
       flex-basis: 6%;
