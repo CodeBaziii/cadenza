@@ -387,7 +387,11 @@
 
   /**************************************************************** header *****************************************************************/
 
-
+header{
+  min-width: 576px;
+      max-width: 1500px;
+      background-color: #fff;
+}
 
   /* .header-top */
   .logo-top-header{
@@ -930,9 +934,9 @@
       margin-top: 6px;
       margin-right: 7px;
     } */
-    header{
-      background-color: #fff;
-    }
+    /* header{ */
+      /* background-color: #fff; */
+    /* } */
 
     /* login form */
     .login-signin-form{
@@ -1526,6 +1530,9 @@ opacity: 1;
 pointer-events: auto;
 }
   /************************************ responsive ******************************************/
+  @media screen and (min-width:300px){
+    
+  }
   @media screen and (min-width:576px){
     .common-title{
       font-size: 25px;
